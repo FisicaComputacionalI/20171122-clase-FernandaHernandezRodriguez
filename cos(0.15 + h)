@@ -1,0 +1,20 @@
+//Programa para calcular coseno
+//Autor:Maria Fernanda Hernandez Rodriguez
+//Creado:Miercoles 22 de Noviembre de 20
+
+
+#include <iostream>
+#include <math.h>
+
+        using namespace std;
+                int main(){
+                float angulo=0.15;
+                float h=1.222;
+                float coseno1=cos(angulo + h);
+                float coseno2=cos(angulo + 2*h);
+
+cout << "h=" << h << endl;
+cout << "Cos(0.15 + h)= " << coseno1 << endl;
+cout << "Cos(0.15 + 2h)=" << coseno2  << endl;
+return 0;
+                }          
