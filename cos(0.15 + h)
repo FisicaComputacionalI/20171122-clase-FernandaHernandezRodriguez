@@ -9,7 +9,7 @@
         using namespace std;
                 int main(){
                 float angulo=0.15;
-                float h=1.222;
+                float h=0.00001;
                 float coseno1=cos(angulo + h);
                 float coseno2=cos(angulo + 2*h);
 
